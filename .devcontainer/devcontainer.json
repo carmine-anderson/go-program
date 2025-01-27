@@ -1,0 +1,17 @@
+{
+  "name": "Go Program",
+  "image": "mcr.microsoft.com/vscode/devcontainers/go:latest",
+  "features": {
+    "ghcr.io/devcontainers/features/go:1": {
+    "version": "latest"
+    }
+},
+"customizations": {
+    "vscode": {
+    "settings": {},
+    "extensions": [
+        "golang.go"
+        ]
+    }
+}
+}
